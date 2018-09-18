@@ -1,7 +1,7 @@
 {
   "name": "try-react-bulma",
   "version": "0.1.0",
-  "homepage":"https://zero71st.github.io/try-react-bulma/",
+  "homepage": "https://zero71st.github.io/try-react-bulma/",
   "private": true,
   "dependencies": {
     "react": "^16.5.1",
@@ -15,7 +15,6 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  
   "devDependencies": {
     "bulma": "^0.7.1",
     "gh-pages": "^2.0.0"
