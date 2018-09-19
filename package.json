@@ -1,7 +1,7 @@
 {
   "name": "try-react-bulma",
   "version": "0.1.0",
-  "homepage": "https://zero71st.github.io/try-react-bulma/",
+  "homepage": "https://zero71st.github.io/try-bulma/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
