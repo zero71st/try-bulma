@@ -90,8 +90,8 @@ class General extends React.Component {
                             </span>
                         </div>
                     </div>
-
-                    <section className="section">
+<br/>
+                    <section className="container">
                         <h1 className="title">Form addons</h1>
                         <div className="field has-addons">
                             <div className="control">
@@ -104,10 +104,51 @@ class General extends React.Component {
 
                         <div className="field has-addons">
                             <div className="control">
-                                <input className="input" placeholder="Static addons"/>
+                                <input className="input" placeholder="Static addons" />
                             </div>
                             <div className="control">
                                 <button className="button is-static">@gmail.com</button>
+                            </div>
+                        </div>
+
+                            <div className="field is-grouped">
+                            <div className="control">
+                                <input className="input" placeholder="Static addons" />
+                            </div>
+                            <div className="control">
+                                <button className="button is-info">Approve</button>
+                            </div>
+                        </div>
+
+
+                    </section>
+                    <section className="container">
+                        <h1 className="title">Form grouped</h1>
+                        <h2 className="subtitle">Example how to grouped control</h2>
+                        <div className="field is-grouped">
+                            <div className="control">
+                                <button className="button is-success">Button</button>
+                            </div>
+                            <div className="control">
+                                <a className="button is-danger">Button</a>
+                            </div>
+                        </div>
+
+                        <div className="field is-grouped is-grouped-centered">
+                            <div className="control">
+                                <button className="button is-success">Save</button>
+                            </div>
+                            <div className="control">
+                                <a className="button is-danger">Cancel</a>
+                            </div>
+                        </div>
+
+                        <div className="field is-grouped is-grouped-right">
+                            <div className="control">
+                                <button className="button is-primary">Save</button>
+                            </div>
+                            <div className="control">
+                                <a className="button is-warning">Done</a>
                             </div>
                         </div>
                     </section>

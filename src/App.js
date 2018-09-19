@@ -9,11 +9,13 @@ import Hero from './Layouts/Hero.react';
 import Container from './Layouts/Container.react';
 import Section from './Layouts/Section.react';
 import General from './Forms/General.react';
+import HorizontalForm from './Forms/HorizontalForm.react';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <HorizontalForm/>
         {/* <section className="section">
           <section className="container">
             <h1 className="title">Layouts</h1>
@@ -31,7 +33,7 @@ class App extends Component {
             <h2>This is container for defind layout</h2>
           </section>
         </section> */}
-        <General/>
+        {/* <General/> */}
       </div>
     );
   }
