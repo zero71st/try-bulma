@@ -34,6 +34,75 @@ class General extends React.Component {
                             This email is invalid.
                         </p>
                     </div>
+
+                    <div className="field">
+                        <label className="label">Subject</label>
+                        <div className="control has-icons-left">
+                            <div className="select">
+                                <select>
+                                    <option>Select dropdown</option>
+                                    <option>With options</option>
+                                </select>
+                            </div>
+                            <span className="icon is-small is-left">
+                                <i className="fas fa-globe"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div className="field">
+                        <label className="label">Message</label>
+                        <div className="control">
+                            <textarea className="textarea"></textarea>
+                        </div>
+                    </div>
+
+                    <div className="control">
+                        <button className="button is-primary">Button</button>
+                    </div>
+
+                    <div className="field">
+                        <label className="label is-small">Small input</label>
+                        <div className="control has-icons-left">
+                            <input className="input is-small is-success" placeholder="Username"></input>
+                            <span className="icon is-small is-left">
+                                <i className="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div className="field">
+                        <label className="label">Medium input</label>
+                        <div className="control has-icons-left">
+                            <input className="input" placeholder="Username"></input>
+                            <spand className="icon is-small is-left">
+                                <i className="fas fa-user"></i>
+                            </spand>
+                        </div>
+                    </div>
+
+                    <div className="field">
+                        <label className="label is-large">Large input</label>
+                        <div className="control has-icons-left">
+                            <input className="input is-large" placeholder="Username"></input>
+                            <span className="icon is-large is-left">
+                                <i className="fas fa-user"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <section className="section">
+                        <h1 className="title">Form addons</h1>
+                        <div className="field has-addons">
+                            <div className="control">
+                                <input className="input" placeholder="Find a repository"></input>
+                            </div>
+                            <div className="control">
+                                <button className="button is-primary">Search</button>
+                            </div>
+                        </div>
+
+                    </section>
                 </div>
             </section>
         );
