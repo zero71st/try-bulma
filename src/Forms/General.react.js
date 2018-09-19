@@ -95,13 +95,21 @@ class General extends React.Component {
                         <h1 className="title">Form addons</h1>
                         <div className="field has-addons">
                             <div className="control">
-                                <input className="input" placeholder="Find a repository"></input>
+                                <input className="input" placeholder="Simple form addons"></input>
                             </div>
                             <div className="control">
                                 <button className="button is-primary">Search</button>
                             </div>
                         </div>
 
+                        <div className="field has-addons">
+                            <div className="control">
+                                <input className="input" placeholder="Static addons"/>
+                            </div>
+                            <div className="control">
+                                <button className="button is-static">@gmail.com</button>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </section>
