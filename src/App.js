@@ -10,30 +10,13 @@ import Container from './Layouts/Container.react';
 import Section from './Layouts/Section.react';
 import General from './Forms/General.react';
 import HorizontalForm from './Forms/HorizontalForm.react';
+import Column from './Columns/Column.react';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <HorizontalForm/>
-        {/* <section className="section">
-          <section className="container">
-            <h1 className="title">Layouts</h1>
-            <h2>This is container for defind layout</h2>
-            <nav className="nav">
-              <a href="/Contianer">Container</a>
-              <a href="/Level">Lavel</a>
-              <a href="/Media Object">Media Object</a>
-            </nav>
-          </section>
-        </section>
-        <section className="section">
-          <section className="container">
-            <h1 className="title">Columns</h1>
-            <h2>This is container for defind layout</h2>
-          </section>
-        </section> */}
-        {/* <General/> */}
+        <Column/>
       </div>
     );
   }
